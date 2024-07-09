@@ -41,7 +41,7 @@ s body {
 
 
 .banner-section {
-    border: 2px solid salmon;
+    /*border: 2px solid salmon;*/
     width: 1440px;
     height: 652px;
     background-image: url("./assets/Hero-bg.png");
@@ -58,7 +58,6 @@ s body {
     height: 90%;
     width: 70%;
     margin: 0 auto;
-
 }
 
 
@@ -91,10 +90,12 @@ s body {
 /* Banner section is end hera*/
 /* Development-section is start hera*/
 .development-section {
+    /*border: 2px solid salmon;*/
     width: 1140px;
-    border: 2px solid salmon;
     height: 1393px;
     margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,14 +105,18 @@ s body {
 }
 
 .development-section-container {
-    border: 2px solid rgba(12, 2, 1, 0.842);
+    /*border: 2px solid rgba(8, 187, 56, 0.842);*/
     width: 87%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .development-section-text{
-    border: 2px solid rgba(12, 2, 1, 0.842);
-
+    /*border: 2px solid rgba(12, 2, 1, 0.842);*/
+    width: 852px;
+    height: 113px;
 }
 .development-section-text h3 {
     color: rgb(13, 19, 33);
@@ -124,6 +129,56 @@ s body {
     font-size: 16px;
     font-weight: 400;
 }
+.development-section-content{
+    /*border: 2px solid rgba(219, 14, 14, 0.842);*/
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .development-section-content1{
-    border: 2px solid rgba(223, 25, 7, 0.842);
+    /*border: 2px solid rgba(65, 7, 223, 0.842);*/
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-around;
+    gap: 98px;
+
+}
+.development-section-content1 div{
+    /*border: 2px solid rgba(7, 223, 79, 0.842); */
+    margin-top: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.development-section-content1 h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700px;
+}
+.development-section-content1 p{
+    /*border: 2px solid rgba(223, 25, 7, 0.842);*/
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.development-section-content1 button{
+    /*border: 1px solid rgb(13, 19, 33);*/
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+}
+.development-section-content1 img{
+    /*border: 2px solid rgba(223, 7, 7, 0.842);*/
+    margin-top: 30px;
+    width: 300px;
+    height: 217.01px;  
+}
+#d-s-c{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
