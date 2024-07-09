@@ -11,7 +11,7 @@ s body {
     font-family: Azeret Mono;
 }
 
-/* Banner section is start hera*/
+/* Banner section is start here*/
 .Banner {
     width: 1440px;
     height: 652px;
@@ -87,8 +87,8 @@ s body {
     margin-top: 38px;
 }
 
-/* Banner section is end hera*/
-/* Development-section is start hera*/
+/* Banner section is end here*/
+/* Development-section is start here*/
 .development-section {
     /*border: 2px solid salmon;*/
     width: 1140px;
@@ -182,3 +182,42 @@ s body {
 #d-s-c{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+/* Development-section is end here*/
+/* Inspiration-section is start here*/
+
+.inspiration-section{
+    /* border: 2px solid rgba(223, 7, 7, 0.842);*/
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;  
+}
+.inspiration-section-text{
+   /*  border: 2px solid rgba(223, 7, 7, 0.842);*/
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.inspiration-section-text h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiration-section-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.inspiration-section-video{
+    /* border: 2px solid rgba(223, 7, 7, 0.842);*/
+    width: 1140px;
+    height: 610px;
+    margin: 0 auto;
+    padding-top: 28px;
+    border-radius: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+/* Inspiration-section is start here*/
+/* Current-target-section is start here*/
