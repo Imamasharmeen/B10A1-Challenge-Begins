@@ -97,9 +97,21 @@ main button{
     font-size: 16px;
     font-weight: 400px;
     margin-top: 28px;
+    margin-bottom: 45px;
 }
+.button-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    width: 244px;
+    height: 65px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    text-decoration: none;
+    }
 
-.banner-button {
+/*.banner-button {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
@@ -109,6 +121,7 @@ main button{
     background: rgb(13, 19, 33);
     margin-top: 38px;
 }
+    */
 
 /* Banner section is end here*/
 /* Development-section is start here*/
@@ -366,6 +379,7 @@ main button{
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    padding-left: 25px;
 }
 
 .submit-btn{
@@ -404,3 +418,4 @@ main button{
 }
 
 /* Footer-section is end here*/
+
