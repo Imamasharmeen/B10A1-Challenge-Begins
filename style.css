@@ -7,10 +7,20 @@
     padding: 0;
 }
 
-s body {
+body {
     font-family: Azeret Mono;
 }
 
+body h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+body p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400; 
+}
 /* Banner section is start here*/
 .Banner {
     width: 1440px;
@@ -118,7 +128,7 @@ s body {
     width: 852px;
     height: 113px;
 }
-.development-section-text h3 {
+/*.development-section-text h3 {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -128,7 +138,7 @@ s body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-}
+}*/
 .development-section-content{
     /*border: 2px solid rgba(219, 14, 14, 0.842);*/
     height: 92%;
@@ -156,17 +166,16 @@ s body {
     justify-content: space-evenly;
 }
 
-.development-section-content1 h3{
+/*.development-section-content1 h3{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700px;
 }
 .development-section-content1 p{
-    /*border: 2px solid rgba(223, 25, 7, 0.842);*/
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-}
+}*/
 .development-section-content1 button{
     /*border: 1px solid rgb(13, 19, 33);*/
     width: 171px;
@@ -200,7 +209,7 @@ s body {
     margin: 0 auto;
     margin-bottom: 50px;
 }
-.inspiration-section-text h3{
+/* .inspiration-section-text h3{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -210,6 +219,7 @@ s body {
     font-size: 16px;
     font-weight: 400;
 }
+  */  
 .inspiration-section-video{
     /* border: 2px solid rgba(223, 7, 7, 0.842);*/
     width: 1140px;
@@ -238,12 +248,12 @@ s body {
     margin-bottom: 48px;
     text-align: center;
 }
-.current-target-text h3{
+/*.current-target-text h3{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
 }
-
+*/
 
 .current-target-content{
     /*border: 2px solid rgba(83, 7, 223, 0.842);*/
@@ -319,6 +329,10 @@ s body {
     height: 313px;
     margin: 0 auto;
     margin-top: 49px; 
+    background-image: url("./assets/handshake.jpg");
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 .support-section-content{
     border: 2px solid rgba(223, 7, 25, 0.842);
@@ -338,4 +352,31 @@ s body {
     width: 730px;
     height: 57px;
     margin: 0 auto;
+}
+/* Support-section is end here*/
+/* footer-section is start here*/
+.footer-section{
+    border: 2px solid rgba(7, 223, 158, 0.842);
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-section-text{
+    border: 2px solid rgba(223, 7, 25, 0.842);
+    width: 1140px;
+    height: 36px;
+}
+.footer-section-img{
+    border: 2px solid rgba(223, 7, 25, 0.842);
+    width: 157.01px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    
 }
