@@ -22,7 +22,7 @@ body p{
     font-size: 15px;
     font-weight: 400; 
 }
-main button{
+/*main button{
     width: 171px;
     height: 47px;
     padding: 12px 20px 12px 20px;
@@ -30,6 +30,16 @@ main button{
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 500;
+}*/
+.learn-more-button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
 }
 .learn-more-link{
     color: rgb(13, 19, 33);
@@ -65,6 +75,9 @@ main button{
 
     border-radius: 8px;
     padding: 17px 24px 17px 24px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .banner-section {
@@ -111,17 +124,6 @@ main button{
     text-decoration: none;
     }
 
-/*.banner-button {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 600;
-    width: 244px;
-    height: 65px;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    margin-top: 38px;
-}
-    */
 
 /* Banner section is end here*/
 /* Development-section is start here*/
@@ -385,6 +387,9 @@ main button{
 .submit-btn{
     width: 120px;
     height: 57px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border-style: none;
